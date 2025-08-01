@@ -1,3 +1,5 @@
+
+import SocialIcons from '../assets/SocialIcons';
 export default function Footer() {
   return (
     <footer className="bg-[#1f2937] text-gray-300 p-6 md:p-12 rounded-t-lg shadow-inner">
@@ -10,10 +12,7 @@ export default function Footer() {
         {/* Middle: Navigation Links */}
         <nav>
           <ul className="flex sm:flex-row md:flex-row content-between space-y-4 md:space-y-0 md:space-x-8 text-sm md:text-base">
-            <li><a href="#" className="hover:text-leaf transition-colors">Home</a></li>
-            <li><a href="#" className="hover:text-leaf transition-colors">About</a></li>
-            <li><a href="#" className="hover:text-leaf transition-colors">Services</a></li>
-            <li><a href="#" className="hover:text-leaf transition-colors">Contact</a></li>
+           <SocialIcons/>
           </ul>
         </nav>
 

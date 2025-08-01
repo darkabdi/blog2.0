@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="bg-[#e9f1e1] p-4 rounded-lg shadow flex items-center justify-between relative">
       {/* Logo / Brand */}
-      <div className="text-2xl font-serif font-bold text-leaf">MyWebsite</div>
+      <div className="text-2xl font-serif text-leaf">Enligt Marina</div>
 
       {/* Hamburger Toggle (always visible) */}
       <button
